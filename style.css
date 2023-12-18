@@ -26,7 +26,7 @@ nav{
     border-bottom: 1px solid #828282; 
     justify-content: space-between;
     position: relative;
-    z-index:-2;
+    z-index:0;
 }
 
 h1{
@@ -64,7 +64,7 @@ h1{
 }
 main{
     position: relative;
-    z-index:-2;
+    z-index:0;
 }
 
 .gallery-container{
@@ -483,7 +483,7 @@ footer{
     flex: start;
     flex-wrap: wrap;
     position: relative;
-    z-index:-2;
+    z-index:0;
 }
 
 footer a{
@@ -641,7 +641,7 @@ footer a{
 
     .gallery-container{
         position: relative;
-        z-index:-2;
+        z-index:0;
     }
 
     .gallery{
@@ -808,7 +808,7 @@ footer a{
         width: 100%;
         max-width: 400px;
         position: fixed;
-        z-index:-1;
+        z-index:10;
         top: 0;
         right:0;
         display: flex;
@@ -836,7 +836,7 @@ footer a{
         position: fixed;
         top: 3rem;
         right: 2rem;
-        z-index:0;
+        z-index:11;
     }
 
     .ham-menu span {
