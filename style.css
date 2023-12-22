@@ -109,34 +109,34 @@ main{
 
 .motion-gallery-box-1{
     grid-column: 1/5;
-    background-image: url(imgs/reel.png);
+    background-image: url(imgs/reel.jpg);
 
 }
 
 
 .motion-gallery-box-2{
     grid-column: 5/8;
-    background-image: url(imgs/squares.png);
+    background-image: url(imgs/squares.jpg);
 }
 
 .motion-gallery-box-3{
     grid-column: 1/4;
-    background-image: url(imgs/highline.png);
+    background-image: url(imgs/highline.jpg);
 }
 
 .motion-gallery-box-4{
     grid-column: 4/8;
-    background-image: url(imgs/life.png);
+    background-image: url(imgs/life.jpg);
 }
 
 .motion-gallery-box-5{
     grid-column: 1/5;
-    background-image: url(imgs/home.png);
+    background-image: url(imgs/home.jpg);
 }
 
 .motion-gallery-box-6{
     grid-column: 5/8;
-    background-image: url(imgs/type.png);
+    background-image: url(imgs/type.jpg);
 }
 
 .design-gallery-box-1{
