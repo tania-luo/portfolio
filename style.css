@@ -152,12 +152,12 @@ main{
 
 .design-gallery-box-3{
     grid-column: 1/4;
-    background-image: url(imgs/grow.png);
+    background-image: url(imgs/grow.jpg);
 }
 
 .design-gallery-box-4{
     grid-column: 4/8;
-    background-image: url(imgs/drifting.png);
+    background-image: url(imgs/drifting.jpg);
 }
 
 .project{
