@@ -109,34 +109,34 @@ main{
 
 .motion-gallery-box-1{
     grid-column: 1/5;
-    background-image: url(imgs/reel.jpg);
+    background-image: url(imgs/reel.png);
 
 }
 
 
 .motion-gallery-box-2{
     grid-column: 5/8;
-    background-image: url(imgs/squares.jpg);
+    background-image: url(imgs/squares.png);
 }
 
 .motion-gallery-box-3{
     grid-column: 1/4;
-    background-image: url(imgs/highline.jpg);
+    background-image: url(imgs/highline.png);
 }
 
 .motion-gallery-box-4{
     grid-column: 4/8;
-    background-image: url(imgs/life.jpg);
+    background-image: url(imgs/life.png);
 }
 
 .motion-gallery-box-5{
     grid-column: 1/5;
-    background-image: url(imgs/home.jpg);
+    background-image: url(imgs/home.png);
 }
 
 .motion-gallery-box-6{
     grid-column: 5/8;
-    background-image: url(imgs/type.jpg);
+    background-image: url(imgs/type.png);
 }
 
 .design-gallery-box-1{
@@ -147,17 +147,17 @@ main{
 
 .design-gallery-box-2{
     grid-column: 5/8;
-    background-image: url(imgs/artbash.jpg);
+    background-image: url(imgs/artbash.png);
 }
 
 .design-gallery-box-3{
     grid-column: 1/4;
-    background-image: url(imgs/grow.jpg);
+    background-image: url(imgs/grow.png);
 }
 
 .design-gallery-box-4{
     grid-column: 4/8;
-    background-image: url(imgs/drifting.jpg);
+    background-image: url(imgs/drifting.png);
 }
 
 .project{
