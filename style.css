@@ -131,12 +131,12 @@ main{
 
 .motion-gallery-box-5{
     grid-column: 1/5;
-    background-image: url(imgs/home.png);
+    background-image: url(imgs/principle.png);
 }
 
 .motion-gallery-box-6{
     grid-column: 5/8;
-    background-image: url(imgs/type.png);
+    background-image: url(imgs/home.png);
 }
 
 .design-gallery-box-1{
@@ -296,39 +296,8 @@ h2{
 
 #artbash-1{
     grid-column: 1/8;
-    height:40vw;
+    height:85vw;
     background-image: url(imgs/artbash-poster-1.png);
-}
-#artbash-2{
-    grid-column: 1/8;
-    height:40vw;
-    background-image: url(imgs/artbash-poster-2.png);
-}
-
-#artbash-3{
-    grid-column: 1/8;
-    height:60vw;
-    display:grid;
-    gap: 0.5em;
-    grid-template-columns: 1fr 1fr;
-    flex-wrap:wrap;
-}
-
-#artbash-3-1{
-    grid-column: 1/2;
-    background-image: url(imgs/artbash-detail-1.png);
-}
-#artbash-3-2{
-    grid-column: 2/2;
-    background-image: url(imgs/artbash-detail-2.png);
-}
-#artbash-3-3{
-    grid-column: 1/2;
-    background-image: url(imgs/artbash-detail-3.png);
-}
-#artbash-3-4{
-    grid-column: 2/2;
-    background-image: url(imgs/artbash-detail-4.png);
 }
 
 #grow-1{
