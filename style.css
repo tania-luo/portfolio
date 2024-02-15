@@ -422,6 +422,7 @@ h2{
     color:#72a827;
 }
 .contact-introduction span{
+    font-family: 'Roboto Thin 100', sans-serif;
    font-size:smaller;
 }
 .contact-info{
@@ -430,7 +431,7 @@ h2{
     line-height:1.2rem;
 }
 .contact-info a{
-    font-family: 'Roboto Thin 100', sans-serif;;
+    font-family: 'Roboto Thin 100', sans-serif;
     font-weight: 100;
     line-height: 2rem;
     text-decoration: underline;
