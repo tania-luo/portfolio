@@ -109,7 +109,7 @@ main{
 
 .motion-gallery-box-1{
     grid-column: 1/5;
-    background-image: url(imgs/reel.png);
+    background-image: url(imgs/highline.png);
 
 }
 
@@ -121,7 +121,7 @@ main{
 
 .motion-gallery-box-3{
     grid-column: 1/4;
-    background-image: url(imgs/highline.png);
+    background-image: url(imgs/canvas.png);
 }
 
 .motion-gallery-box-4{
@@ -136,7 +136,7 @@ main{
 
 .motion-gallery-box-6{
     grid-column: 5/8;
-    background-image: url(imgs/home.png);
+    background-image: url(imgs/type.png);
 }
 
 .design-gallery-box-1{
