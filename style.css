@@ -530,6 +530,46 @@ h2{
 .experience-skill li{
     margin-right: 3rem;
 }
+#myBtn {
+    width:100px;
+    height:100px;
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 20px; /* Place the button at the bottom of the page */
+    right: 30px; /* Place the button 30px from the right */
+    z-index: 111; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color: #72a827; /* Set a background color */
+    color: white; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 15px; /* Some padding */
+    border-radius: 90px; /* Rounded corners */
+    font-size: 18px; /* Increase font size */
+  }
+  
+  #myBtn:hover {
+    background-color: #555; /* Add a dark-grey background on hover */
+  }
+  .btn-arrow{
+    width: 35px;
+    color:white;
+    border-radius: 25px;
+    position: absolute;
+    border-top: 5px solid;
+    border-right: 5px solid;
+  }
+  .arrow-left{
+     left: 21%;
+     top: 45%;
+     transform: rotate(-45deg);
+    }
+    .arrow-right{
+     left: 44%;
+     top: 45%;
+     transform: rotate(45deg);
+    }
+
 
 footer{
     padding:4.5rem;
@@ -540,7 +580,7 @@ footer{
     flex: start;
     flex-wrap: wrap;
     position: relative;
-    z-index:0;
+    z-index:-1;
 }
 
 footer a{
@@ -666,27 +706,11 @@ footer a{
     
 }
 
-@media (max-width:850px){
-    .project-info-title{
-        margin-right:1rem;
-    }
-    .project-description{
-        max-width: 400px;
-    
-    }
 
-    footer{
-        padding:3rem;
-    }
-    .footer-email{
-        margin-right:3rem;
-    }
-    
-    
-}
 
 /* change all margin to 2rem */
 /* image attach to side */
+/*change image height here*/
 @media (max-width:850px){
     .gallery-container{
         margin: 2rem;
@@ -742,13 +766,13 @@ footer a{
         height: 50vw;
     }
     #quimbys-2{
-        height: 50vw;
-    }
-    #quimbys-3{
         height: 90vw;
     }
-    #quimbys-4{
+    #quimbys-3{
         height: 120vw;
+    }
+    #quimbys-4{
+        height: 50vw;
     }
     #grow-1{
         height: 80vw;
@@ -758,12 +782,6 @@ footer a{
     }
     #grow-3{
         height: 85vw;
-    }
-    #drifting-1{
-        height: 50vw;
-    }
-    #drifting-2{
-        height: 70vw;
     }
     .gallery-container-gap{
         height: 5rem;
@@ -822,6 +840,30 @@ footer a{
         padding-top: 2rem;
         
     }
+    #myBtn {
+        width:90px;
+        height:90px;
+      }
+      
+      #myBtn:hover {
+        background-color: #555; /* Add a dark-grey background on hover */
+      }
+      .btn-arrow{
+        width: 35px;
+        color:white;
+        border-radius: 25px;
+        position: absolute;
+        border-top: 5px solid;
+        border-right: 5px solid;
+      }
+      .arrow-left{
+         left: 18%;
+        }
+        .arrow-right{
+         left: 42%;
+         top: 45%;
+         transform: rotate(45deg);
+        }
    
 }
 /* contact page-experience */
