@@ -164,6 +164,11 @@ main{
     padding: 2.5rem 4.5rem;
 }
 
+#reel-intro{
+    width:100%;
+    text-align:center;
+}
+
 video {
     width: 100%;
     height: auto;
@@ -682,7 +687,7 @@ footer a{
 
 /* change all margin to 2rem */
 /* image attach to side */
-@media (max-width:800px){
+@media (max-width:850px){
     .gallery-container{
         margin: 2rem;
     }
@@ -697,7 +702,7 @@ footer a{
     }
 
     .header-nav li{
-        margin-left: 2rem;
+        margin-left: 1.5rem;
     }
 
     .gallery-container{
@@ -841,7 +846,15 @@ footer a{
 }
 
 /* ham menu*/
-@media (max-width:650px){
+@media (max-width:690px){
+    
+    main{
+        z-index:-1;
+    }
+    
+    footer{
+        z-index:-1;
+    }
     .offscreen-menu{
         display:block;
     }
@@ -886,7 +899,7 @@ footer a{
         font-size: 2rem;
         transition: .3s ease;
         justify-content: center;
-        
+        transform: translate(-0%, -0%);
     }
     
     .ham-menu {
@@ -896,7 +909,7 @@ footer a{
         position: absolute;
         top: 3rem;
         right: 2rem;
-        z-index:0;
+        z-index:100;
     }
 
     .ham-menu.active{
@@ -906,7 +919,7 @@ footer a{
         position: fixed;
         top: 3rem;
         right: 2rem;
-        z-index:11;
+        z-index:100;
     }
 
     .ham-menu span {
