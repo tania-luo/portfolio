@@ -265,12 +265,19 @@ h2{
 .process-description{
     margin: auto 4rem;
 }
+.description-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+
 
 .process-description p{
-    font-family: 'Roboto Thin 100', sans-serif;;
+    display:inline-block;
+    font-family: 'Roboto Thin 100', sans-serif;
     font-weight: 100;
     line-height: 1.5rem;
-    max-width: 1000px;
+    max-width: 30vw;
+    padding-bottom:1rem;
 }
 
 #quimbys-1{
@@ -306,15 +313,33 @@ h2{
     background-image: url(imgs/quimbys-sign.png);
 }
 #quimbys-5{
-    grid-column: 1/8;
-    height:40vw;
+    display:inline-block;
+    float:right;
+    width:50vw;
+    height: 30vw;
+    margin: 0 auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
     background-image: url(imgs/quimbys-store.png);
     margin-bottom: 2rem;
 }
 
+#description-right{
+    float:right;
+}
+#description-center{
+    max-width:500px;
+}
+
 #quimbys-6{
-    grid-column: 1/8;
-    height:45vw;
+    display:inline-block;
+    width:50vw;
+    height: 30vw;
+    margin: 0 auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
     background-image: url(imgs/quimbys-sketch.png);
     margin-bottom: 2rem;
 }
@@ -774,6 +799,23 @@ footer a{
     #quimbys-4{
         height: 50vw;
     }
+    #quimbys-5{
+        display:block;
+        float:left;
+        width:100vw;
+        height:50vw;
+    
+    }
+    #quimbys-6{
+        display:block;
+        float:left;
+        width:100vw;
+        height:50vw;
+    
+    }
+    #description-right{
+        float:left;
+    }
     #grow-1{
         height: 80vw;
     }
@@ -819,8 +861,12 @@ footer a{
         margin:auto 2rem;
     }
     .process-description p{
+        display:block;
         margin:auto 2rem;
+        max-width:500px;
     }
+    
+
     .contact-experience{
         margin: 4rem 2rem;
     }
