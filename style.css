@@ -943,6 +943,10 @@ footer a{
     footer{
         z-index:-1;
     }
+    .gallery-container{
+            z-index:-1;
+        
+    }
     .offscreen-menu{
         display:block;
     }
